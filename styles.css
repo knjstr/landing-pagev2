@@ -298,6 +298,7 @@ header p {
 footer {
   background-color: #3b5249;
   color: #e5e7eb;
+  font-weight: lighter;
   padding: 30px 40px;
   text-align: center;
 }
