@@ -173,6 +173,14 @@ header {
   flex: 1;
   gap: 50px;
   margin-right: 200px;
+  transition: 0.4s;
+}
+
+.menu-link:hover {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: 0.4s;
 }
 
 /* HEADER INFO */
@@ -206,10 +214,18 @@ header p {
   height: auto;
   width: 600px;
   margin-right: 200px;
+  transition: 0.4s;
+}
+
+.head-img:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.4s;
 }
 
 .top-button {
-  background-color: #bfcba8;
+  background-color: #3b5249;
   color: #f9faf8;
   font-size: 14px;
   font-weight: lighter;
@@ -219,10 +235,10 @@ header p {
 }
 
 .top-button:hover {
-  background-color: #1f2937;
-  color: #f9faf8;
+  background-color: #f9faf8;
+  color: #1f2937;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.4s ease-in-out;
 }
 
 /* -----TOP CONTAINER----- */
@@ -250,6 +266,14 @@ header p {
   width: 300px;
   border: #bfcba8 solid 10px;
   border-radius: 7px;
+  transition: 0.4s;
+}
+
+.art-imgs:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 
 .quotes {
@@ -299,16 +323,28 @@ header p {
   margin-bottom: 10px;
 }
 
-.bot-container button {
-  padding: 10px 20px;
-  border-radius: 10px;
-}
-
 .sub-sub {
   color: #e5e7eb;
   display: block;
   font-size: 18px;
   font-weight: lighter;
+}
+
+.btm-button {
+  background-color: #bfcba8;
+  color: #f9faf8;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 5px 20px;
+  border: #f9faf8 solid 2px;
+  border-radius: 5px;
+}
+
+.btm-button:hover {
+  background-color: #3b5249;
+  color: #f9faf8;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 /* -----Footer----- */
