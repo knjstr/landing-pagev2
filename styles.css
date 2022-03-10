@@ -132,6 +132,7 @@ table {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f9faf8;
 }
 
 a {
@@ -201,19 +202,41 @@ header p {
   margin-bottom: 10px;
 }
 
-.info p {
-    margin
-}
-
 .head-img {
   height: auto;
   width: 600px;
   margin-right: 200px;
 }
 
-/* ----- TOP CONTAINER ----- */
+/* -----TOP CONTAINER----- */
+
+.top-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.top-container h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.imgs,
+.quotes {
+  display: flex;
+  justify-content: space-around;
+}
 
 .art-imgs {
-  height: 300px;
-  width: auto;
+  height: 500px;
+  width: 300px;
+  border: #bfcba8 solid 10px;
+  border-radius: 10px;
+}
+
+.quotes {
+  color: #1f2937;
+  margin-bottom: 100px;
+  margin-top: 30px;
 }
