@@ -199,13 +199,30 @@ header p {
 
 .info h1,
 .info p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .head-img {
   height: auto;
   width: 600px;
   margin-right: 200px;
+}
+
+.top-button {
+  background-color: #bfcba8;
+  color: #f9faf8;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 5px 20px;
+  border: #f9faf8 solid 2px;
+  border-radius: 5px;
+}
+
+.top-button:hover {
+  background-color: #1f2937;
+  color: #f9faf8;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 /* -----TOP CONTAINER----- */
@@ -239,6 +256,7 @@ header p {
   color: #1f2937;
   margin-bottom: 100px;
   margin-top: 30px;
+  font-weight: lighter;
 }
 
 /* -----MID CONTAINER----- */
